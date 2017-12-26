@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    min-height: 80px;
+}
+
+.border-block {
+    position: absolute;
+    height: 40px;
+}
+
+.border-block-top {
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(255,255,255,0.3), rgba(255,255,255,1));
+}
+
+.border-block-bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,1));
+}
+
+.messages-empty {
+    height: 0;
+}
+
+.messages {
+    padding: 0 5%;
+    height: 350px;
+    text-align: left;
+    overflow: scroll;
+    background-color: #fff;
+}
